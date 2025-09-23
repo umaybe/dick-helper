@@ -1,0 +1,19 @@
+[project]
+name = "dick-helper"
+version = "0.1.0"
+description = "a clone of DickHelper based on Flet"
+readme = "README.md"
+requires-python = ">=3.13"
+authors = [
+    { name = "umaybe", email = "s113051468@outlook.com" }
+]
+dependencies = [
+    "flet[all]>=0.28.3",
+]
+
+[tool.flet.app]
+path = "src"
+
+[tool.flet.android]
+min_sdk_version = 21
+target_sdk_version = 36
